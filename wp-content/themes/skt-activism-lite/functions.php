@@ -342,3 +342,9 @@ function skt_activism_lite_register_required_plugins() {
 
 	tgmpa( $plugins, $config );
 }
+
+add_action( 'wp_enqueue_scripts', 'enqueue_theme_scripts_styles');
+function enqueue_theme_scripts_styles() {
+	wp_enqueue_style( 'custom-css', get_template_directory_uri().'/css/custom.css' );
+	//wp_enqueue_script( 'custom-js', get_stylesheet_directory_uri().'/js/custom_js.js', false );
+  }

@@ -41,7 +41,7 @@ if ( is_active_sidebar( 'fc-1' ) || is_active_sidebar( 'fc-2' ) || is_active_sid
 <div id="copyright-area">
 <div class="copyright-wrapper">
 <div class="container">
-     <div class="copyright-txt"><?php esc_html_e('SKT Activism Lite','skt-activism-lite'); ?></div>
+     <div class="copyright-txt">©2020 Humanity & Community Empowerment Organization. All Rights Reserved</div>
      <div class="clear"></div>
 </div>           
 </div>
